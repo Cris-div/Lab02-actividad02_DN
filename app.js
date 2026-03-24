@@ -1,5 +1,6 @@
 const express = require("express");
 const { Pool } = require("pg");
+require("dotenv").config();
 
 const app = express();
 app.use(express.json());
@@ -45,4 +46,6 @@ app.delete("/usuarios/:id", async (req, res) => {
   res.send("Eliminado");
 });
 
-app.listen(3000, () => console.log("Servidor corriendo"));
+app.listen(process.env.PORT || 3000, () => 
+  console.log("Servidor corriendo")
+);

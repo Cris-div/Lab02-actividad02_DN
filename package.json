@@ -1,13 +1,27 @@
 {
-  "name": "crud-usuarios",
+  "name": "semana-02",
   "version": "1.0.0",
+  "description": "��#\u0000 \u0000L\u0000a\u0000b\u00000\u00002\u0000-\u0000a\u0000c\u0000t\u0000i\u0000v\u0000i\u0000d\u0000a\u0000d\u00000\u00002\u0000_\u0000D\u0000N\u0000\r\u0000 \u0000#\u0000 \u0000L\u0000a\u0000b\u00000\u00002\u0000-\u0000a\u0000c\u0000t\u0000i\u0000v\u0000i\u0000d\u0000a\u0000d\u00000\u00002\u0000_\u0000D\u0000N\u0000\r\u0000 \u0000",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cris-div/Lab02-actividad02_DN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cris-div/Lab02-actividad02_DN/issues"
+  },
+  "homepage": "https://github.com/Cris-div/Lab02-actividad02_DN#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "pg": "^8.11.0",
-    "cors": "^2.8.5"
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
   }
 }
